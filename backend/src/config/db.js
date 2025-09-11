@@ -4,6 +4,7 @@ import { ENV } from './env.js';
 export const connectDB = async () => {
     try {
         const conn = await mongoose.connect(ENV.MONGO_URI, {
+            dbName: "PratChat",
             retryWrites: true,
             ssl: true,
             tlsAllowInvalidCertificates: false

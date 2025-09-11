@@ -12,6 +12,6 @@ const App = () => {
       </SignedIn>
     </header>
   )
-}
+};
 
 export default App
