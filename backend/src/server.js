@@ -8,7 +8,6 @@ import { serve } from 'inngest/express';
 import chatRoutes from "./routes/chat.route.js";
 
 import * as Sentry from "@sentry/node"
-// import { ENV } from "./config/env.js";
 
 const app = express();
 
